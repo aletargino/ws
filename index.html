@@ -40,10 +40,8 @@
                     </main>
 
                     <section id="buttons">
-                        <button> + adicionar ideias </button>
-           
-                        <button class="fat">ver ideias</button>
-
+                        <button onclick="onOff()"> + Adicionar Ideias </button>
+                        <button class="fat">Ver Ideias</button>
                     </section>
                 
            
@@ -110,6 +108,48 @@
 
             </div>
             
+
+            <div id="modal" class="hide">
+                <div class="content">
+                    <h1>Nova Ideia</h1>
+
+                    <form action="">
+                        <div class="input-wrapper">
+                            <label for="title">Titulo da Ideia</label>
+                            <input type="text" name="title">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="category">Categoria</label>
+                            <input type="text" name="category">
+                        </div> 
+                        
+
+                        <div class="input-wrapper">
+                            <label for="image">Link da imagem</label>
+                            <input type="url" name="image">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="description">Digite uma descricao para essa ideia</label>
+                            <textarea name="description" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="link">Link da Ideia</label>
+                            <input type="url" name="link">
+                        </div>
+
+
+
+                        <a href="#" onclick="onOff()">Voltar</a>
+                    
+                        <button>Salvar</button>
+                        
+    
+                    </form>
+                </div>
+            </div>
           
                <script src="scripts.js"></script>
         </body>
