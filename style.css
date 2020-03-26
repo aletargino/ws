@@ -119,7 +119,7 @@ footer a {
     display: flex;
     
     background-color: #fff;
-    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1)
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
     border-radius: 8px;
 
     padding: 32px;
@@ -189,13 +189,11 @@ footer a {
 
     grid-template-columns: 1fr 1fr;
 
-    gap: 20px
+    gap: 20px;
 
 }
 
-.content form div: :nth-child(3),
-.content form div: :nth-child(4),
-.content form div: :nth-child(5){
+.content form div:nth-child(3),.content form div:nth-child(4),.content form div:nth-child(5){
     grid-column:span 2;
 }
 
