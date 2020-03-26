@@ -10,6 +10,10 @@ margin: 0;
 
 }
 
+body.hideScroll {
+    overflow: hidden;
+}
+
 
  a{
     color: #ff5E84;
@@ -155,15 +159,21 @@ footer a {
 
     position: absolute;
     top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
-    width: 100vw;
-    height: 100vh;
+
 
     display: flex;
     justify-content: center;
 
     transition: 400ms;
   
+}
+
+#modal.addScroll {
+    overflow: auto;
 }
 
 #modal .content{
@@ -280,3 +290,97 @@ form button:hover {
   opacity: 0;
   visibility: hidden;
     }
+
+    /* IDEIA.HTML */
+
+    #page-ideias #container {
+        display: block;
+    }
+
+    #page-ideias header { 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #page-ideias nav {
+        display: flex;
+        align-items: center;
+    }
+
+    #page-ideias nav li {
+        list-style-type: none;
+        margin-right: 16px;
+    }
+
+    #page-ideias nav li a {
+        color: #25282b;
+    }
+
+    #page-ideias nav li:last-child {
+        margin: 0;
+    }
+
+    #page-ideia nav li:last-child a {
+
+        width: 150px;
+        height: 40px;
+
+        background-color: #ff5E84;
+        color: white;
+
+        font-size: 14px;
+        font-weight: bold;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 8px;
+    }
+
+    #page-ideia nav li:last-child a:hover {
+        background-color: #0984e3;
+        text-decoration: none;
+    }
+
+    section#title {
+        text-align: center;
+        
+    }
+
+    section#title p {
+        opacity: 0,7;
+        margin: 0;
+    }
+
+    section#title h1 {
+        margin: 0;
+
+        font-size: 28px;
+    }
+
+    section#ideas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+    }
+
+    section#ideas .idea {
+        margin: 0;
+
+    }
+
+    section#title,
+    select#ideas,
+    footer {
+        margin-top: 64px;
+    }
+
+
+
+
+
+
+
+
