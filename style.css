@@ -1,4 +1,6 @@
 
+/* global*/
+
 body {
 background:#e5e5e5 ;
 color: #25282b;
@@ -31,6 +33,35 @@ p, .description{
     letter-spacing: 0.1px;
 }
 
+.button{
+    color: white;
+    background: #ff5E84;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px #ff5e8432;
+
+}
+
+.button:hover{
+    background-color: #0984e3;
+    text-decoration: none;
+}
+
+
+
+/*padrao*/
+
 #container{
     width: 80%;
     max-width: 980px;
@@ -45,7 +76,7 @@ p, .description{
 #intro{
     width: 300px;
 
-    margin-right: 20px;
+    margin-right: 64px;
 }
 
 main {
@@ -82,25 +113,6 @@ outline: none;
 
 button:hover {
     text-decoration: underline;
-}
-
-
-
-button.fat{
-    color: white;
-    background: #ff5E84;
-
-    width: 150px;
-    height: 40px;
-
-    border-radius: 6px;
-
-    box-shadow: 0px 8px 16px #ff5e8432;
-
-}
-
-button.fat:hover{
-    text-decoration: none;
 }
 
 footer {
@@ -177,7 +189,7 @@ footer a {
 }
 
 #modal .content{
-    margin-top: 128px;
+    margin-top: 15%;
 
     color: white;
 
@@ -193,7 +205,7 @@ footer a {
     width: 80%;
     max-width: 800px;
 
-    margin: 0 auto;
+    margin: 0 auto 15%;
 
     display: grid;
 
@@ -316,32 +328,15 @@ form button:hover {
         color: #25282b;
     }
 
+    #page-ideias nav li a.button {
+        color: white;
+    }
+
     #page-ideias nav li:last-child {
         margin: 0;
     }
 
-    #page-ideia nav li:last-child a {
 
-        width: 150px;
-        height: 40px;
-
-        background-color: #ff5E84;
-        color: white;
-
-        font-size: 14px;
-        font-weight: bold;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 8px;
-    }
-
-    #page-ideia nav li:last-child a:hover {
-        background-color: #0984e3;
-        text-decoration: none;
-    }
 
     section#title {
         text-align: center;
