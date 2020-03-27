@@ -7,7 +7,6 @@ color: #25282b;
 
 font-family: 'Montserrat', sans-serif;
 
-
 margin: 0;
 
 }
@@ -16,24 +15,23 @@ body.hideScroll {
     overflow: hidden;
 }
 
-
- a{
+ a {
     color: #ff5E84;
     font-weight: bold;
     text-decoration: none;
  }
 
- a:hover{
+ a:hover {
      text-decoration: underline;
  }
 
-p, .description{
+p, .description {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
 }
 
-.button{
+.button {
     color: white;
     background: #ff5E84;
 
@@ -53,7 +51,7 @@ p, .description{
 
 }
 
-.button:hover{
+.button:hover {
     background-color: #0984e3;
     text-decoration: none;
 }
@@ -62,18 +60,17 @@ p, .description{
 
 /*padrao*/
 
-#container{
+#container {
     width: 80%;
     max-width: 980px;
 
     margin: 40px auto;
 
     display: flex;
-
-    
+   
 }
 
-#intro{
+#intro {
     width: 300px;
 
     margin-right: 64px;
@@ -150,7 +147,7 @@ footer a {
     margin-right: 32px;
 }
 
-.idea h3{
+.idea h3 {
     margin: 0;
 }
 
@@ -165,7 +162,7 @@ footer a {
 }
 
 
-#modal{
+#modal {
     background: #ff5E84;
 
     position: absolute;
@@ -173,8 +170,6 @@ footer a {
     bottom: 0;
     right: 0;
     left: 0;
-
-
 
     display: flex;
     justify-content: center;
@@ -187,20 +182,19 @@ footer a {
     overflow: auto;
 }
 
-#modal .content{
+#modal.content {
     margin-top: 15%;
 
     color: white;
 
-
 }
 
-#modal .content h1{
+#modal.content h1 {
     text-align: center;
     text-transform: uppercase;
 }
 
-#modal form{
+#modal form {
     width: 80%;
     max-width: 800px;
 
@@ -214,12 +208,12 @@ footer a {
 
 }
 
-.content form div:nth-child(3),.content form div:nth-child(4),.content form div:nth-child(5){
+.content form div:nth-child(3),.content form div:nth-child(4),.content form div:nth-child(5) {
     grid-column:span 2;
 }
 
 form input,
-form textarea{
+form textarea {
     width: 100%;
 
     padding: 12px;
@@ -236,14 +230,14 @@ form textarea{
 
 }
 
-form label{
+form label {
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.8px;
 
 }
 
-form a{
+form a {
     width: 150px;
     height: 40px;
 
@@ -263,14 +257,14 @@ form a{
     transition: 400ms;
 }
 
-form a:hover{
+form a:hover {
     background-color: #fff;
     color: #ff5E84;
 
     text-decoration: none;
 }
 
-form button{
+form button {
     background: white;
 
     width: 150px;
@@ -334,8 +328,6 @@ form button:hover {
     #page-ideias nav li:last-child {
         margin: 0;
     }
-
-
 
     section#title {
         text-align: center;
