@@ -92,7 +92,6 @@ main {
 
 }
 
-
 button {
 color: #ff5E84;
 
@@ -131,7 +130,7 @@ footer a {
     opacity: 0.7;
 }
 
-.idea{
+.idea {
     display: flex;
     
     background-color: #fff;
